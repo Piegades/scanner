@@ -1,0 +1,24 @@
+{
+  "name": "Heimdall",
+  "version": "0.0.1",
+  "description": "Server for managing user account with their keystore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Abdalah-Hossayn Mokhtar Bacha @ahmb84 | mokhtar@kantum.xyz",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "ethereumjs-util": "^5.1.2",
+    "express": "^4.16.2",
+    "ipfs": "^0.27.4",
+    "mnid": "^0.1.1",
+    "mongodb": "^2.2.33",
+    "nfc-pcsc": "^0.6.1",
+    "pw": "^0.0.4",
+    "uport-registry": "^5.1.0",
+    "web3": "^1.0.0-beta.26"
+  }
+}
